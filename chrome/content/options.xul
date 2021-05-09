@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://OldLocationBar/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://OldLocationBar/skin/prefwindow/prefwindow.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://OldLocationBar/locale/prefwindow.dtd">
+
+<prefwindow id="OldLocationBarPreferences"
+			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+			orient="vertical"
+			title="&prefwindow.title;">
+
+<!-- General Tab -->
+	<prefpane id="general" label="&general.title;">
+
+<!-- General Prefs -->
+	<preferences>
+	<preference id="autofill" name="browser.urlbar.autoFill" type="bool" />
+<!--	<preference id="matchfilt" name="browser.urlbar.default.behavior" type="int" />-->
+	<preference id="nothing" name="browser.urlbar.autocomplete.enabled" inverted="true" type="bool" />
+	<preference id="matchbeh" name="browser.urlbar.matchBehavior" type="int" />
+	<preference id="maxmatch" name="browser.urlbar.maxRichResults" type="int" />
+<!--	<preference id="surch" name="keyword.URL" type="string" />-->
+	</preferences>
+	<vbox>
+
+<!-- URL Match Filter menu -->
+<!--        <groupbox>
+	<caption label="&matchfilt.desc;"/>              -->
+<!--	<vbox>
+	<menulist id="matchlist" preference="matchfilt">
+	<menupopup id="matchpopup">
+	<menuitem label="&hist.label;" value="17" autocheck="true"/>
+	<menuitem label="&book.label;" value="18" autocheck="true"/>
+	<menuitem label="&hisbook.label;" value="16" autocheck="true"/>
+	<menuitem label="&typed.label;" value="48" autocheck="true"/>
+	</menupopup>
+	</menulist>--><!--As of May 2021, redundant with main Prefs -> Privacy -> Location Bar (and the pref item names have changed)-->
+<!--	</vbox>
+	</groupbox>-->
+
+<!-- URL Match Behavior menu -->
+        <groupbox>
+	<caption label="&matchbeh.desc;"/>              
+	<vbox>
+	<menulist id="matchlist" preference="matchbeh">
+	<menupopup id="matchpopup">
+	<menuitem label="&beh0.label;" value="0" autocheck="true"/>
+	<menuitem label="&beh1.label;" value="1" autocheck="true"/>
+	<menuitem label="&beh2.label;" value="2" autocheck="true"/>
+	<menuitem label="&beh3.label;" value="3" autocheck="true"/>
+	</menupopup>
+	</menulist>
+        <checkbox preference="nothing" label="&noth.label;"/>
+	</vbox>
+	</groupbox>
+
+<!-- URL Bar Search Provider -->
+<!--        <groupbox>
+	<caption label="&surch.desc;"/>              
+	<vbox>
+	<menulist id="surchlist" preference="surch">
+	<menupopup id="surchpopup">
+        <menuitem label="&sur0.label;" value="https://duckduckgo.com/?t=palemoon&amp;q=" autocheck="true"/>
+	<menuitem label="&sur1.label;" value="http://www.google.com/search?&sur1.lang;ie=UTF-8&amp;oe=UTF-8&amp;q=" autocheck="true"/>
+	<menuitem label="&sur2.label;" value="http://www.bing.com/search?ie=UTF-8&amp;oe=UTF-8&amp;q=" autocheck="true"/>
+	<menuitem label="&sur3.label;" value="http://&sur3.lang;search.yahoo.com/search?ie=UTF-8&amp;oe=UTF-8&amp;p=" autocheck="true"/>
+	<menuitem label="&sur4.label;" value="http://www.&sur4.lang;ask.com/web?ie=UTF-8&amp;oe=UTF-8&amp;q=" autocheck="true"/>
+	<menuitem label="&sur5.label;" value="http://www.wolframalpha.com/input/?ie=UTF-8&amp;oe=UTF-8&amp;i=" autocheck="true"/>
+	</menupopup>
+	</menulist>
+	</vbox>
+    </groupbox>--><!--BROKEN as of May 2021 (browser no longer obeys keyword.URL setting)-->
+
+<!-- Misc Settings -->
+	<groupbox>
+	<caption label="&misc.desc;"/> 
+	<vbox>
+	<checkbox preference="autofill" label="&autofill.label;"/>
+	<hbox align="center">
+	<label value="&scrollres.label;" />
+	<textbox id="maxres" size="3" maxlength="4" preference="maxmatch" type="number"/>
+	</hbox>
+	</vbox>
+	</groupbox>
+
+
+	</vbox>	
+	</prefpane>
+
+
+<!-- Style Tab -->
+	<prefpane id="style" label="&style.title;">
+
+<!-- Style Prefs -->
+	<preferences>
+	<preference id="goIcon" name="extensions.OldLocationBar.showgo" type="bool"/>
+	<preference id="starIcon" name="extensions.OldLocationBar.hidestar" type="bool"/>
+	<preference id="feedIcon" name="extensions.OldLocationBar.hidefeed" type="bool"/>
+        <preference id="hidedrop" name="extensions.OldLocationBar.hidedrop" type="bool"/>
+	<!--preference id="rounded" name="extensions.OldLocationBar.roundbar" type="bool"/--><!--BROKEN as of May 2021 (ignores both -moz and CSS3 rounded corners styling on urlbar)-->
+        <!--preference id="secure" name="extensions.OldLocationBar.secure" type="bool"/--><!--BROKEN as of May 2021 (security attribute no longer present in urlbar element)-->
+	<preference id="favonly" name="extensions.OldLocationBar.favonly" type="bool"/>
+	<preference id="nosecurebox" name="extensions.OldLocationBar.nosecurebox" type="bool"/>
+	<preference id="tools" name="extensions.OldLocationBar.hideolbtoolmenu" type="bool"/>
+	</preferences>
+
+<!-- Style Checkboxes -->
+	<vbox>
+	<groupbox>
+	<caption
+			label="&styletab.desc;"
+	/>
+          
+	<vbox>
+	
+	<wbox>
+	<checkbox 
+			preference="goIcon" 
+			label="&goIcon.label;"
+	/>
+	<label>
+	<image 
+			src='chrome://OldLocationBar/skin/prefwindow/go.png'
+			width='13'
+			height='13'
+	/>
+	</label>
+	</wbox>
+
+	<wbox>
+	<checkbox
+			preference="starIcon"
+			label="&starIcon.label;"
+	/>
+	<label>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/bm.png'
+			width='16'
+			height='16'
+	/>
+	</label>
+	</wbox>
+
+	<wbox>
+	<checkbox
+			preference="feedIcon"
+			label="&feedIcon.label;"
+	/>
+	<label>
+	<image
+			src='chrome://browser/skin/page-livemarks.png'
+			width='16'
+			height='16'
+	/>
+	</label>
+	</wbox>
+	
+	<wbox>
+	<checkbox
+			preference="hidedrop"
+			label="&hidedrop.label;"
+	/>
+	<label>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/rside.png'
+			width='44'
+			height='24'
+	/>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/nodrop.png'
+			width='56'
+			height='24'
+	/>
+	</label>
+	</wbox>
+	
+	<!--wbox>
+	<checkbox
+			preference="rounded"
+			label="&rounded.label;"
+	/>
+	<label>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/rside.png'
+			width='44'
+			height='24'
+	/>
+		<image
+			src='chrome://OldLocationBar/skin/prefwindow/round.png'
+			width='56'
+			height='24'
+	/>
+	</label>
+	</wbox-->
+	
+	<!--wbox>
+	<checkbox
+			preference="secure"
+			label="&secure.label;"
+	/>
+	<label>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/secure.png'
+			width='108'
+			height='22'
+	/>
+	</label>
+	</wbox-->
+
+	<wbox>
+	<checkbox
+			preference="favonly"
+			label="&favonly.label;"
+	/>
+	<label>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/favonly.png'
+			width='171'
+			height='24'
+	/>
+	</label>
+	</wbox>
+
+	<wbox>
+	<checkbox
+			preference="nosecurebox"
+			label="&nosecurebox.label;"
+	/>
+	<label>
+	<image
+			src='chrome://OldLocationBar/skin/prefwindow/nosecurebox.png'
+			width='120'
+			height='24'
+	/>
+	</label>
+	</wbox>
+
+	</vbox>
+	</groupbox>
+
+	<groupbox>
+	<checkbox
+			preference="tools"
+			label="&toolsmenu.label;"
+	/>
+	</groupbox>
+
+	</vbox>	
+	<text value="&restart.label;" style="font-weight: bold;"/>
+	</prefpane>
+
+<!--Removed because the data it contains is no longer correct-->
+<!-- Info Tab 
+	<prefpane id="info" label="&info.title;">
+	<vbox width="290">
+	<groupbox>
+	<vbox>
+
+	<description>&info1.desc;</description>
+
+	<description>&info2.desc;</description>
+
+	<description><label href="mailto:kakkoister@hotmail.com" class="text-link" value="&info3.desc;"/></description>
+	</vbox>
+	</groupbox>
+
+	<groupbox>
+	<description>&info4.desc;</description>
+
+	<description>
+	<label href="https://addons.mozilla.org/&don.lang;/firefox/addon/7637/developers/post_install?confirmed=true" class="text-link">
+	<image src='chrome://OldLocationBar/skin/prefwindow/cont.png' width='146' height='31'/>
+	</label>
+	</description>
+	</groupbox>
+	</vbox>
+	</prefpane>
+        -->
+
+</prefwindow>

@@ -1,0 +1,10 @@
+content OldLocationBar	jar:chrome/OldLocationBar.jar!/content/
+locale	OldLocationBar	en-US	jar:chrome/OldLocationBar.jar!/locale/en-US/
+locale	OldLocationBar	es-ES	jar:chrome/OldLocationBar.jar!/locale/es-ES/
+locale	OldLocationBar	de-DE	jar:chrome/OldLocationBar.jar!/locale/de-DE/
+locale	OldLocationBar	fr-FR	jar:chrome/OldLocationBar.jar!/locale/fr-FR/
+locale	OldLocationBar	ja-JP	jar:chrome/OldLocationBar.jar!/locale/ja-JP/
+locale	OldLocationBar	ru-RU	jar:chrome/OldLocationBar.jar!/locale/ru-RU/
+locale	OldLocationBar	zh-CN	jar:chrome/OldLocationBar.jar!/locale/zh-CN/
+skin	OldLocationBar	classic/1.0 jar:chrome/OldLocationBar.jar!/skin/
+overlay chrome://browser/content/browser.xul chrome://OldLocationBar/content/OldLocationBar.xul

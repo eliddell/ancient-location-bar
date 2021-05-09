@@ -1,0 +1,44 @@
+<!ENTITY prefwindow.title "Ancient Location Bar Optionen">
+<!ENTITY general.title "Allgemeine Optionen">
+<!ENTITY matchfilt.desc "Wählen Sie, welche Objekte in der Adressleiste angezeigt werden sollen:">
+<!ENTITY hist.label "Chronik">
+<!ENTITY book.label "Lesezeichen">
+<!ENTITY hisbook.label "Chronik und Lesezeichen">
+<!ENTITY typed.label "Eingetragen oder einfügt">
+<!ENTITY noth.label "Keine Übereinstimmungen gefunden">
+<!ENTITY matchbeh.desc "Wählen Sie 'Passendes Verhalten der Adressleiste:'">
+<!ENTITY beh0.label "Suche überall, innerhalb des vorhandenen Textes.">
+<!ENTITY beh1.label "Wortgrenzen zuerst verwenden, dann  überall Passendes suchen.">
+<!ENTITY beh2.label "Nur Wortgrenzen verwenden.">
+<!ENTITY beh3.label "Nur bei Übereinstimmung, am Anfang der Seiten - URL und des Titels.">
+<!ENTITY misc.desc "Weitere Einstellungen">
+<!ENTITY autofill.label "Verwenden Sie 'Automatisches ausfüllen'">
+<!ENTITY scrollres.label "Maximale URL - Ergebnisse:">
+<!ENTITY style.title "Style - Optionen">
+<!ENTITY styletab.desc "Diese Optionen verändern die Ansicht - Darstellung der Adressleiste.">
+<!ENTITY goIcon.label "'Go' Pfeil Symbol immer anzeigen. ">
+<!ENTITY starIcon.label "'Lesezeichen' Symbol ausblenden.">
+<!ENTITY feedIcon.label "'RSS - Feeds' Symbol ausblenden.">
+<!ENTITY hidedrop.label "'Aufklappmenü' Pfeilsymbol verbergen.">
+<!ENTITY rounded.label "Adressleisten Ecken abgerundet darstellen.">
+<!ENTITY secure.label "Adressleiste auf sicheren Webseiten gelb einfärben.">
+<!ENTITY favonly.label "Sicherheits Infos nicht anzeigen.">
+<!ENTITY nosecurebox.label "Favicons und Sicherheits Feld entfernen">
+<!ENTITY toolsmenu.label "'Ancient Location Bar' Eintrag aus Menü 'Extras' entfernen.">
+<!ENTITY restart.label "Bitte starten Sie Pale Moon neu damit die Style Änderungen wirksam werden.">
+<!ENTITY info.title "Informationen">
+<!ENTITY info1.desc "Ich habe diese Erweiterung für alle die, die die Adresszeile von Firefox 2 bevorzugen, erstellt. Ich hoffe, Sie sind mit der Umsetzung dieser Erweiterung zufrieden.">
+<!ENTITY info2.desc "Wenn Sie Kritik, Vorschläge oder Anregungen haben, wie die Erweiterung noch besser funktionieren könnte, schicken Sie mir einfach eine Mail. Gern leiste ich auch Hilfestellung bei Problemen.">
+<!ENTITY info3.desc "E-Mail senden">
+<!ENTITY info4.desc "Wenn Sie dieses Add-on zu genießen, wäre ich sehr dankbar für jede Spende kann ich erhalten! Vielen Dank. :)">
+<!ENTITY surch.desc "In der Adressleiste eingegebene Worte werden gesucht in:">
+<!ENTITY sur0.label "Standard">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang  "hl=de&amp;">
+<!ENTITY sur3.lang  "de.">
+<!ENTITY sur4.lang  "de.">
+<!ENTITY don.lang   "de">

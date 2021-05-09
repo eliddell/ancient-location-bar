@@ -1,0 +1,44 @@
+﻿<!ENTITY prefwindow.title "老地址栏的选项">
+<!ENTITY general.title "常规选项">
+<!ENTITY matchfilt.desc "选择什么地方酒吧结果表明：">
+<!ENTITY hist.label "历史">
+<!ENTITY book.label "书签">
+<!ENTITY hisbook.label "历史和书签">
+<!ENTITY typed.label "类型化与粘贴">
+<!ENTITY noth.label "任何不匹配">
+<!ENTITY matchbeh.desc "选择地址栏的搜索行为：">
+<!ENTITY beh0.label "可搜索文本内的任何地方。">
+<!ENTITY beh1.label "首先使用单词边界，然后再尝试匹配的任何地方。">
+<!ENTITY beh2.label "只使用单词边界。">
+<!ENTITY beh3.label "搜索的网址和标题的开始。">
+<!ENTITY misc.desc "其他设置">
+<!ENTITY autofill.label "使用自动填充">
+<!ENTITY scrollres.label "最大的成果：">
+<!ENTITY style.title "样式选项">
+<!ENTITY styletab.desc "这些选项将改变地址栏的外观：">
+<!ENTITY goIcon.label "总是显示'去'按钮。">
+<!ENTITY starIcon.label "隐藏'书签'按钮。">
+<!ENTITY feedIcon.label "隐藏'RSS摘要'按钮。">
+<!ENTITY hidedrop.label "隐藏'下拉'按钮。">
+<!ENTITY rounded.label "使地址栏的角落，流畅。">
+<!ENTITY secure.label "使地址栏的变黄的安全网页。">
+<!ENTITY favonly.label "不显示安全信息。">
+<!ENTITY nosecurebox.label "删除图标/安全箱。">
+<!ENTITY toolsmenu.label "删除'老地址栏'的'工具'菜单。">
+<!ENTITY restart.label "请重新启动Firefox，使作风更改生效。">
+<!ENTITY info.title "信息">
+<!ENTITY info1.desc "我做了这个插件大家谁喜欢的方式地址栏的Firefox 2中工作。我希望大家喜欢我的努力，复制Firefox 2的最好的可能。">
+<!ENTITY info2.desc "我总是开放的建议，以提高我的插件。所以，请随时给我发送电子邮件，如果你有一个建议，还是一个问题。">
+<!ENTITY info3.desc "-点击这里给我发电子邮件-">
+<!ENTITY info4.desc "如果你喜欢这个附加任何捐款给我，我会很感激！谢谢。 :)">
+<!ENTITY surch.desc "搜索引擎在地址栏的使用：">
+<!ENTITY sur0.label "默认火狐谷歌网站猜测">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang "hl=zh-CN&amp;">
+<!ENTITY sur3.lang "cn.">
+<!ENTITY sur4.lang "">
+<!ENTITY don.lang "zh-CN">

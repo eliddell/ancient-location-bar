@@ -1,0 +1,44 @@
+<!ENTITY prefwindow.title "Настройки Ancient Location Bar">
+<!ENTITY general.title "Общие параметры">
+<!ENTITY matchfilt.desc "Выберите информацию, которая будет отображаться в адресной строке:">
+<!ENTITY hist.label "История">
+<!ENTITY book.label "Закладки">
+<!ENTITY hisbook.label "История и закладки">
+<!ENTITY typed.label "Набранное или скопированное">
+<!ENTITY noth.label "Не показывать ничего">
+<!ENTITY matchbeh.desc "Выберите поведение адресной строки:">
+<!ENTITY beh0.label "Искать везде во всех доступных текстах.">
+<!ENTITY beh1.label "Искать в границах слов, затем везде где возможно.">
+<!ENTITY beh2.label "Искать только в границах слов.">
+<!ENTITY beh3.label "Сравнивать только начало URL-адреса и заголовка.">
+<!ENTITY misc.desc "Другие настройки">
+<!ENTITY autofill.label "Использовать автозаполнение">
+<!ENTITY scrollres.label "Максимум веб-страниц:">
+<!ENTITY style.title "Опции стиля">
+<!ENTITY styletab.desc "Эти опции изменят внешний вид адресной строки:">
+<!ENTITY goIcon.label "Всегда показывать кнопку 'Перейти'.">
+<!ENTITY starIcon.label "Скрыть кнопку 'Закладка'.">
+<!ENTITY feedIcon.label "Скрыть кнопку 'RSS Кормить'.">
+<!ENTITY hidedrop.label "Скрыть кнопку 'Выпадающий'.">
+<!ENTITY rounded.label "Сгладить углы адресной строки.">
+<!ENTITY secure.label "Окрашивать адресную строку жёлтым на защищённых веб-страницах.">
+<!ENTITY favonly.label "Не отображать информацию о защите.">
+<!ENTITY nosecurebox.label "Скрыть Favicon/безопасности ящик.">
+<!ENTITY toolsmenu.label "Удалить 'Ancient Location Bar' из меню 'Сервис'.">
+<!ENTITY restart.label "Пожалуйста перезапустите Pale Moon чтобы изменения вступили в силу.">
+<!ENTITY info.title "Информация">
+<!ENTITY info1.desc "Я сделал это расширение для всех, кто предпочитает адресную строку из Firefox 2. Я надеюсь что вы оценили мои попытки повторить её как можно лучше.">
+<!ENTITY info2.desc "Я всегда открыт для предложений по улучшению моего дополнения. Вы можете написать мне, если вы столкнулись с проблемой или у вас есть идеи, как сделать его ещё лучше.">
+<!ENTITY info3.desc "-Нажмите здесь, чтобы написать мне по электронной почте-">
+<!ENTITY info4.desc "Если вам нравится это дополнение, я был бы очень благодарен за любые пожертвования дано мне! Спасибо. :)">
+<!ENTITY surch.desc "Искать слова, набранные в адресную строку, используя:">
+<!ENTITY sur0.label "Встроенный в Firefox поиск Google">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang "hl=ru&amp;">
+<!ENTITY sur3.lang "ru.">
+<!ENTITY sur4.lang "ru.">
+<!ENTITY don.lang "ru">

@@ -1,0 +1,6 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.private-autocomplete-history-dropmarker { display: none !important; }
+.urlbar-history-dropmarker  { display: none !important; }
+#urlbar > xul:dropmarker { display: none !important; }
+#urlbar > .private-autocomplete-history-dropmarker { display: none !important; }

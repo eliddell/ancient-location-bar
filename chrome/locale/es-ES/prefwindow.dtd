@@ -1,0 +1,44 @@
+<!ENTITY prefwindow.title "Opciones de Ancient Location Bar">
+<!ENTITY general.title "Opciones Generales">
+<!ENTITY matchfilt.desc "Escoge que resultados debe mostrar la barra de direcciones:">
+<!ENTITY hist.label "Historial">
+<!ENTITY book.label "Marcadores">
+<!ENTITY hisbook.label "Historial y marcadores">
+<!ENTITY typed.label "Texto escrito o pegado">
+<!ENTITY noth.label "No completar nada">
+<!ENTITY matchbeh.desc "Escoge la conducta de concordancias de la barra de direcciones:">
+<!ENTITY beh0.label "Buscar en cualquier lugar dentro del texto disponible.">
+<!ENTITY beh1.label "Primero usa un límite de palabras, entonces intenta las coincidencias donde sea">
+<!ENTITY beh2.label " Usar solo margen de palabras.">
+<!ENTITY beh3.label "Solo coincidencias en el principio de las URL y títulos de las paginas">
+<!ENTITY misc.desc "Otros ajustes">
+<!ENTITY autofill.label "Usar autocompletado">
+<!ENTITY scrollres.label "Resultados máximo de URL's:">
+<!ENTITY style.title "Opciones de estilo">
+<!ENTITY styletab.desc "Estas opciones cambiaran la apariencia de la barra de direcciones:">
+<!ENTITY goIcon.label "Siempre mostrar el botón 'ir'">
+<!ENTITY starIcon.label "Esconder el botón de marcadores">
+<!ENTITY feedIcon.label "Esconder el botón de 'archivo RSS'">
+<!ENTITY hidedrop.label "Esconder el botón de 'desplegar'">
+<!ENTITY rounded.label "Suavizar las esquinas">
+<!ENTITY secure.label "Amarillo en paginas seguras.">
+<!ENTITY favonly.label "No mostrar información de seguridad">
+<!ENTITY nosecurebox.label "Remover Favicon/Caja de seguridad.">
+<!ENTITY toolsmenu.label "Remover 'Ancient Location Bar' del menú de Herramientas.">
+<!ENTITY restart.label "Por favor reinicie Pale Moon para que los cambios de estilo tomen efecto">
+<!ENTITY info.title "Información">
+<!ENTITY info1.desc "Yo hice este complemento para todo el mundo que prefiere la manera en que la barra de direcciones de Firefox 2 funcionaba. Espero que todos ustedes disfruten de mis esfuerzos para recrearla de la mejor forma posible.">
+<!ENTITY info2.desc "Yo estoy siempre abierto a sugerencias sobre la manera de mejorar el complemento. Así que siéntete libre de enviarme un email, Si usted tiene una sugerencia o un problema.">
+<!ENTITY info3.desc "-Click aquí para enviarme un E-mail-">
+<!ENTITY info4.desc "Si te gusta este complemento, yo estaría muy agradecido por las donaciones que pueda recibir! Gracias. :)">
+<!ENTITY surch.desc "Buscar palabras  escritas en la barra de dirección usando:">
+<!ENTITY sur0.label "Pagina Default de búsqueda">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang "hl=es&amp;">
+<!ENTITY sur3.lang "espanol.">
+<!ENTITY sur4.lang "es.">
+<!ENTITY don.lang "es-ES">

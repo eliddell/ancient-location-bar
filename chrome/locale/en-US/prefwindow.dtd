@@ -1,0 +1,44 @@
+<!ENTITY prefwindow.title "Ancient Location Bar Options">
+<!ENTITY general.title "General Options">
+<!ENTITY matchfilt.desc "Choose what Location Bar results to show:">
+<!ENTITY hist.label "History">
+<!ENTITY book.label "Bookmarks">
+<!ENTITY hisbook.label "History and Bookmarks">
+<!ENTITY typed.label "Typed or Pasted">
+<!ENTITY noth.label "Don't match anything">
+<!ENTITY matchbeh.desc "Choose Location Bar Matching Behavior:">
+<!ENTITY beh0.label "Search anywhere within available text.">
+<!ENTITY beh1.label "Use word boundaries first, then try matching anywhere.">
+<!ENTITY beh2.label "Use only word boundaries.">
+<!ENTITY beh3.label "Match only the beginning of page URLs and titles.">
+<!ENTITY misc.desc "Other settings">
+<!ENTITY autofill.label "Use Autofill">
+<!ENTITY scrollres.label "Max URL results:">
+<!ENTITY style.title "Style Options">
+<!ENTITY styletab.desc "These options will change the looks of the location bar:">
+<!ENTITY goIcon.label "Always display 'Go' button.">
+<!ENTITY starIcon.label "Hide the 'Bookmark' button.">
+<!ENTITY feedIcon.label "Hide the 'RSS Feed' button.">
+<!ENTITY hidedrop.label "Hide the 'Drop Down' button.">
+<!ENTITY rounded.label "Make the corner's smoother.">
+<!ENTITY secure.label "Yellow on secure webpages.">
+<!ENTITY favonly.label "Don't display security info.">
+<!ENTITY nosecurebox.label "Remove Favicon/Security Box.">
+<!ENTITY toolsmenu.label "Remove 'Old Location Bar' from the 'Tools' menu.">
+<!ENTITY restart.label "Please restart Pale Moon for Style changes to take effect.">
+<!ENTITY info.title "Information">
+<!ENTITY info1.desc "I made this add-on for everyone out there who preferred the way Firefox 2's Location Bar worked. I hope you all enjoy my efforts to replicate it the best as possible.">
+<!ENTITY info2.desc "I'm always open to suggestions on ways to improve my add-on. So feel free to send me an email, whether you have a suggestion, or a problem.">
+<!ENTITY info3.desc "-Click here to email me-">
+<!ENTITY info4.desc "If you enjoy this add-on, I would be very grateful for any donations I may receive! Thank you. :)">
+<!ENTITY surch.desc "Search words typed into Location Bar using:">
+<!ENTITY sur0.label "Default Search Engine">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang "">
+<!ENTITY sur3.lang "">
+<!ENTITY sur4.lang "">
+<!ENTITY don.lang "en-US">

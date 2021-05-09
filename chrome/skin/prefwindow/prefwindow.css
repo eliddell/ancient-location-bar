@@ -1,0 +1,30 @@
+@import url("chrome://global/skin/");
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#OldLocationBarPreferences
+
+radio[pane=general] {
+list-style-image: url("chrome://OldLocationBar/skin/prefwindow/general.png");
+}
+
+radio[pane=paneGeneral]:hover, radio[pane=tab][selected="true"]  {
+-moz-image-region: rect(32px, 192px, 64px, 160px)
+}
+
+radio[pane=tab] {
+list-style-image: url("chrome://browser/skin/preferences/Options.png");
+}
+
+radio[pane=tab] {
+-moz-image-region: rect(0px, 192px, 32px, 160px)
+}
+
+
+radio[pane=style] {
+list-style-image: url("chrome://OldLocationBar/skin/prefwindow/style.png");
+}
+
+radio[pane=info] {
+list-style-image: url("chrome://OldLocationBar/skin/prefwindow/info.png");
+}

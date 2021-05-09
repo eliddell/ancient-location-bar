@@ -1,0 +1,9 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#urlbar[level="high"][pageproxystate="valid"] > .autocomplete-textbox-container ,
+#urlbar[level="high"][pageproxystate="valid"] > .autocomplete-history-dropmarker ,
+#urlbar[level="low"][pageproxystate="valid"] > .autocomplete-textbox-container ,
+#urlbar[level="low"][pageproxystate="valid"] > .autocomplete-history-dropmarker {
+  background-color: #F5F6BE !important;
+  color: #000000 !important;
+}

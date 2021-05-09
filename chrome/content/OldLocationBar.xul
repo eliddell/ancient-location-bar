@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://OldLocationBar/locale/prefwindow.dtd">
+
+<overlay id="OldLocationBar" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<menupopup id="menu_ToolsPopup">
+	<menuitem id="OldLocationBar-options"
+		label="&prefwindow.title;"
+		insertbefore="prefSep"
+		class="menuitem-iconic"
+		image="chrome://OldLocationBar/content/icon_sm.png"
+		oncommand='openDialog("chrome://OldLocationBar/content/options.xul","menu_ToolsPopup");'/>
+	</menupopup>
+<script type="application/x-javascript">
+function OldLocationBarStartup(event)
+{
+  var urlbar = document.getElementById("urlbar");
+  urlbar.setAttribute("autocompletepopup", "PopupAutoComplete");
+
+			var ioService = Components.classes['@mozilla.org/network/io-service;1'].getService(Components.interfaces.nsIIOService);
+			var styleSheetService = Components.classes['@mozilla.org/content/style-sheet-service;1'].getService(Components.interfaces.nsIStyleSheetService);
+			var prefBranch = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefService).getBranch('extensions.OldLocationBar.');
+			var prefs = prefBranch.getChildList('', {});
+			for (var i = 0; i &lt; prefs.length; i++)
+			{
+				if (prefBranch.getBoolPref(prefs[i]))
+				{
+					var sheet = ioService.newURI('chrome://OldLocationBar/skin/' + prefs[i] + '.css', null, null);
+					styleSheetService.loadAndRegisterSheet(sheet, styleSheetService.AGENT_SHEET);
+				}
+			}
+
+}
+
+window.addEventListener("load", OldLocationBarStartup, false);
+</script>
+</overlay>

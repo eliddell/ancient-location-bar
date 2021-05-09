@@ -1,0 +1,44 @@
+﻿<!ENTITY prefwindow.title "旧ロケーションバーのオプション">
+<!ENTITY general.title "一般的なオプション">
+<!ENTITY matchfilt.desc "'ロケーションバー' からの検索結果を取得：">
+<!ENTITY hist.label "歴史">
+<!ENTITY book.label "ブックマーク">
+<!ENTITY hisbook.label "履歴とブックマーク">
+<!ENTITY typed.label "入力または貼り付け">
+<!ENTITY noth.label "何も一致しない">
+<!ENTITY matchbeh.desc "ロケーションバーのマッチングの動作を選択：">
+<!ENTITY beh0.label "利用可能なテキスト内の任意の検索します。">
+<!ENTITY beh1.label "使用して、単語の境界、その後どこに一致してください。">
+<!ENTITY beh2.label "のみを使用し、単語の境界。">
+<!ENTITY beh3.label "唯一の冒頭検索のURLのと、タイトル。">
+<!ENTITY misc.desc "その他の設定">
+<!ENTITY autofill.label "使用してオートフィル">
+<!ENTITY scrollres.label "URLの最大の結果：">
+<!ENTITY style.title "スタイルオプション">
+<!ENTITY styletab.desc "これらのオプションは、ロケーションバーの外観を変更します：">
+<!ENTITY goIcon.label "常に'行く'ボタンを示しています。">
+<!ENTITY starIcon.label "隠す'ブックマーク'ボタンをクリック">
+<!ENTITY feedIcon.label "隠す'ライブフィード'ボタンをクリック">
+<!ENTITY hidedrop.label "隠す'ドロップダウン'ボタンをクリック">
+<!ENTITY rounded.label "確認ロケーションバーの隅のなめらかになります。">
+<!ENTITY secure.label "確認ロケーションバーの色を確保ウェブページ上で黄色です。">
+<!ENTITY favonly.label "セキュリティ情報を表示しません。">
+<!ENTITY nosecurebox.label "'ファビコン/セキュリティ'ボックスを非表示。">
+<!ENTITY toolsmenu.label "'ツール'メニューの'旧ロケーションバー'から削除します。">
+<!ENTITY restart.label "スタイルの変更についてはFirefoxを再起動を有効にする。">
+<!ENTITY info.title "情報">
+<!ENTITY info1.desc "私はあなたのすべての私の努力限り、できるだけFirefox 2の複製をお楽しみください。">
+<!ENTITY info2.desc "私は常に提案を受け付けております。私は、かどうかをご提案や問題を抱えてメールを送信するお気軽に。">
+<!ENTITY info3.desc "-ここをクリック私にメールする-">
+<!ENTITY info4.desc "あなたはこのアドオン楽しむなら、私は私に与えられた任意の寄付のために非常に感謝される！ありがとう。 :)">
+<!ENTITY surch.desc "ロケーションバーの検索エンジン：">
+<!ENTITY sur0.label "デフォルトのFirefoxのGoogleウェブサイト推測">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang "hl=ja&amp;">
+<!ENTITY sur3.lang "jp.">
+<!ENTITY sur4.lang "jp.">
+<!ENTITY don.lang "ja-JP">

@@ -1,0 +1,44 @@
+<!ENTITY prefwindow.title "Options d'Ancient Location Bar">
+<!ENTITY general.title "Général">
+<!ENTITY matchfilt.desc "Choisir quel type de résultats afficher :">
+<!ENTITY hist.label "Historique">
+<!ENTITY book.label "Marque-pages">
+<!ENTITY hisbook.label "Historique et marque-pages">
+<!ENTITY typed.label "Saisis ou collés">
+<!ENTITY noth.label "Ne pas rechercher de correspondance">
+<!ENTITY matchbeh.desc "Choisir comment réaliser la correspondance :">
+<!ENTITY beh0.label "Rechercher dans tout le texte">
+<!ENTITY beh1.label "Rechercher d'abord les mots, puis dans tout le texte">
+<!ENTITY beh2.label "Rechercher uniquement les mots">
+<!ENTITY beh3.label "Rechercher uniquement le début des adresses et des titres de pages">
+<!ENTITY misc.desc "Autres paramètres">
+<!ENTITY autofill.label "Compléter l'adresse automatiquement">
+<!ENTITY scrollres.label "Nombre maximal d'adresses affichées">
+<!ENTITY style.title "Apparence">
+<!ENTITY styletab.desc "Ces paramètres modifient l'aspect de la barre d'adresse :">
+<!ENTITY goIcon.label "Toujours afficher le bouton Go">
+<!ENTITY starIcon.label "Cacher le bouton des marque-pages">
+<!ENTITY feedIcon.label "Cacher le bouton des flux RSS">
+<!ENTITY hidedrop.label "Cacher le bouton des autres choix d'adresses">
+<!ENTITY rounded.label "Arrondir les coins">
+<!ENTITY secure.label "Afficher les adresses sécurisées sur fond jaune">
+<!ENTITY favonly.label "Ne pas afficher les informations de sécurité">
+<!ENTITY nosecurebox.label "Ne pas afficher l'icône favicon ni l'icône de sécurité">
+<!ENTITY toolsmenu.label "Retirer Ancient Location Bar du menu Outils">
+<!ENTITY restart.label "Veuillez redémarrer Pale Moon pour appliquer les modifications.">
+<!ENTITY info.title "Information">
+<!ENTITY info1.desc "J'ai développé ce module pour ceux qui préfèrent le fonctionnement de la barre d'adresses de Firefox 2. J'ai tenté de reproduire son fonctionnement le plus fidèlement possible.">
+<!ENTITY info2.desc "J'espère que vous appréciez mes efforts. Je suis ouvert aux suggestions d'améliorations. N'hésitez donc pas à m'écrire avec vos suggestions ou pour me signaler un problème.">
+<!ENTITY info3.desc "- Cliquer ici pour m'envoyer un courriel -">
+<!ENTITY info4.desc "Si vous appréciez cet add-on, je vous serais très reconnaissant pour les dons que je pourrais recevoir! Je vous remercie. :)">
+<!ENTITY surch.desc "Rechercher les mots saisis dans la barre d'adresse en utilisant :">
+<!ENTITY sur0.label "La méthode de recherche de sites par défaut">
+<!ENTITY sur1.label "Google">
+<!ENTITY sur2.label "Bing">
+<!ENTITY sur3.label "Yahoo">
+<!ENTITY sur4.label "ASK.com">
+<!ENTITY sur5.label "Wolfram Alpha">
+<!ENTITY sur1.lang "hl=fr&amp;">
+<!ENTITY sur3.lang "fr.">
+<!ENTITY sur4.lang "fr.">
+<!ENTITY don.lang "fr">
